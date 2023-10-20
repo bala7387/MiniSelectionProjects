@@ -9,7 +9,7 @@ public class RockPaperScissors {
         int bot = (int) (Math.random() * 3);
         if (human == 0 && bot == 1)
         {
-            System.out.println("You played rock. The boy played paper. You lost.");
+            System.out.println("You played rock. The bot played paper. You lost.");
         }
         else if(human == 0 && bot == 2)
         {
